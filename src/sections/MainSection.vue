@@ -3,11 +3,12 @@
   <section class="h-screen px-12 lg:px-32 py-32 mb-8">
     <div class="w-full md:w-1/2 h-full flex flex-col md:justify-center">
       <!-- Main text start -->
-      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold">CAPTURING BEAUTY PHOTO</h1>
-      <p class="capitalize xl:w-1/2 text-stone-500">
-        a camera is an optical instrument that captures a visual image at their most basic, cameras
-        are sealed
-      </p>
+      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold">TOI FÉMININ ESSENTIEL</h1>
+      <p class="xl:w-1/2 text-stone-500">"Riche en émotion"</p>
+      <p class="xl:w-1/2 text-stone-500">"Un retour à l'enfance"</p>
+      <p class="xl:w-1/2 text-stone-500">"Tendre, dur et si vraie "</p>
+      <p class="xl:w-1/2 text-stone-500">"N'oubliez pas vos petits mouchoirs"</p>
+
       <!-- Main text end -->
 
       <!-- Social links start -->
@@ -33,7 +34,7 @@
 
     <!-- Photographer image start -->
     <div class="absolute bottom-0 right-0 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 -z-50">
-      <img src="@/assets/image.jpg" alt="img" class="h-full" />
+      <img src="@/assets/nanette2.png" alt="img" class="h-full rounded-full" />
     </div>
 
     <!-- Photographer image end -->

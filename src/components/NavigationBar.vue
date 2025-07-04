@@ -34,6 +34,13 @@
       </a>
 
       <button class="btn" role="menuitem">Contactez-nous</button>
+
+      <img
+        @click="instagramLink"
+        src="@/assets/instagram-logo.png"
+        alt="icon-instagram"
+        class="size-16"
+      />
       <!-- Links end -->
     </div>
     <!-- Menu content end -->
@@ -41,18 +48,12 @@
   <!-- Navbar end -->
 </template>
 
-<script>
-export default {
-  methods: {
-    // Toogle navbar mode
-    navToggle() {
-      let menu = document.querySelector("[role='menu']")
-      let isExpanded = menu.getAttribute('aria-expanded')
-      menu.setAttribute('aria-expanded', !isExpanded)
-      menu.classList.toggle('hidden')
-      menu.classList.toggle('flex')
-    },
-  },
+<script setup>
+function instagramLink() {
+  window.open(
+    'https://www.instagram.com/toifemininessentielle.nanette?igsh=MXQ1cnZmYzBkeDdyOQ==',
+    '_blank',
+  )
 }
 </script>
 

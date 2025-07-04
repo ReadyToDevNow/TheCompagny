@@ -12,6 +12,7 @@
       <p class="tracking-widest font-light text-stone-100">CLAMECY MARIE</p>
       <p class="tracking-widest font-light text-stone-100">MATTIA EMMA</p>
       <p class="tracking-widest font-light text-stone-100">DIDIER PINEAU</p>
+      <p class="tracking-widest font-light text-stone-100">AVRILLON ALIZÉE</p>
     </div>
     <!-- Overview end -->
 

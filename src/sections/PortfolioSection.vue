@@ -5,9 +5,9 @@
     <div class="flex gap-8 flex-col md:flex-row">
       <!-- Main text start -->
       <h1 class="uppercase text-5xl mb-4 font-semibold">La place des souvenirs</h1>
-      <p class="capitalize xl:w-1/2 text-stone-500 mb-8">
-        La scène, les répétions, les tournées, des souvenirs uniques pour un acteur. Ici nous
-        mettons tout notre coeur afin de vous transmettre chaque émotions.
+      <p class="xl:w-1/2 text-stone-500 mb-8">
+        La scène, les répétitions, les tournées, des souvenirs uniques pour un acteur. Ici nous
+        mettons tout notre coeur afin de vous transmettre chaque émotion.
       </p>
       <!-- Main text end -->
     </div>
