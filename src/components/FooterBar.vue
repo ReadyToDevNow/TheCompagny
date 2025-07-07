@@ -10,7 +10,7 @@
       <a href="https://www.instagram.com/toifemininessentielle.nanette/">DOREY LOUISE</a>
       <a href="https://www.instagram.com/marie.masaki.3/">LAMACHE MARIE</a>
       <a href="https://www.instagram.com/marie03.clm/">CLAMECY MARIE</a>
-      <span class="tracking-widest font-light text-stone-100">MATTIA EMMA</span>
+      <a href="https://www.instagram.com/lounedi.fr/">MATTIA EMMA</a>
     </div>
     <div class="text-stone-100 text-center flex flex-col">
       <span class="tracking-widest font-semibold text-stone-100">REMERCIEMENTS </span>

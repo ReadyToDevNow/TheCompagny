@@ -2,8 +2,9 @@
   <!-- Main section start -->
   <section class="h-screen px-12 lg:px-32 py-32 mb-8">
     <div class="w-full md:w-1/2 h-full flex flex-col md:justify-center">
+      <div class=""></div>
       <!-- Main text start -->
-      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold">TOI FÉMININ ESSENTIEL</h1>
+      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold">TOI FÉMININ ESSENTIELLE</h1>
       <p class="xl:w-1/2 text-stone-500">"Riche en émotion"</p>
       <p class="xl:w-1/2 text-stone-500">"Un retour à l'enfance"</p>
       <p class="xl:w-1/2 text-stone-500">"Tendre, dur et si vraie "</p>
