@@ -5,7 +5,11 @@
   >
     <!-- Overview start -->
     <div class="text-stone-100 text-center flex flex-col">
-      <a href="https://www.instagram.com/toifemininessentielle.nanette/">COMPAGNIE OCTAVIE</a>
+      <a
+        href="https://www.instagram.com/toifemininessentielle.nanette/"
+        class="tracking-widest font-semibold text-stone-100"
+        >COMPAGNIE OCTAVIE</a
+      >
       <a href="https://www.instagram.com/toifemininessentielle.nanette/">BÉNARD ÉVELYNE</a>
       <a href="https://www.instagram.com/toifemininessentielle.nanette/">DOREY LOUISE</a>
       <a href="https://www.instagram.com/marie.masaki.3/">LAMACHE MARIE</a>
