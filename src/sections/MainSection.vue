@@ -39,6 +39,10 @@
 
     <!-- Photographer image end -->
 
+    <!-- Circle start -->
+    <div class="bg-neutral-300 h-64 w-64 rounded-full absolute top-38 left-20 mt-16 -z-20"></div>
+    <!-- Circle end -->
+
     <!-- "More" button start -->
     <div class="w-full h-20 flex justify-start md:justify-center items-center">
       <a href="#about-section">

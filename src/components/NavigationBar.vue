@@ -52,10 +52,7 @@
 
 <script setup>
 function instagramLink() {
-  window.open(
-    'https://www.instagram.com/toifemininessentielle.nanette?igsh=MXQ1cnZmYzBkeDdyOQ==',
-    '_blank',
-  )
+  window.open('https://www.instagram.com/toifemininessentielle.nanette/', '_blank')
 }
 
 function scrollToSection() {
