@@ -9,7 +9,7 @@
     <!-- Logo end -->
 
     <!-- Toggler start -->
-    <button role="menubar" class="md:hidden" @click="navToggle()">
+    <button role="menubar" class="md:hidden">
       <i class="fa-solid fa-bars text-2xl"></i>
     </button>
     <!-- Toggler end -->
@@ -32,6 +32,7 @@
       <a href="#" role="menuitem">
         <p class="mx-4">Explorez</p>
       </a>
+      <p @click="scrollToSection" class="cursor-pointer text-blue-500">Nos souvenirs</p>
 
       <button class="btn" role="menuitem">Contactez-nous</button>
 
@@ -41,6 +42,7 @@
         alt="icon-instagram"
         class="size-16"
       />
+
       <!-- Links end -->
     </div>
     <!-- Menu content end -->
@@ -54,6 +56,13 @@ function instagramLink() {
     'https://www.instagram.com/toifemininessentielle.nanette?igsh=MXQ1cnZmYzBkeDdyOQ==',
     '_blank',
   )
+}
+
+function scrollToSection() {
+  const target = document.getElementById('portfolio-section')
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' })
+  }
 }
 </script>
 

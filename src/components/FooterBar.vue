@@ -4,15 +4,19 @@
     class="bg-stone-700 w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-8 p-8"
   >
     <!-- Overview start -->
-    <div class="text-stone-100 text-center">
-      <p class="tracking-widest font-semibold text-stone-100">COMPAGNIE OCTAVIE</p>
-      <p class="tracking-widest font-light text-stone-100">BÉNARD ÉVELYNE</p>
-      <p class="tracking-widest font-light text-stone-100">DOREY LOUISE</p>
-      <p class="tracking-widest font-light text-stone-100">LAMACHE MARIE</p>
-      <p class="tracking-widest font-light text-stone-100">CLAMECY MARIE</p>
-      <p class="tracking-widest font-light text-stone-100">MATTIA EMMA</p>
-      <p class="tracking-widest font-light text-stone-100">DIDIER PINEAU</p>
-      <p class="tracking-widest font-light text-stone-100">AVRILLON ALIZÉE</p>
+    <div class="text-stone-100 text-center flex flex-col">
+      <span class="tracking-widest font-semibold text-stone-100">COMPAGNIE OCTAVIE</span>
+      <span class="tracking-widest font-light text-stone-100">BÉNARD ÉVELYNE</span>
+      <span class="tracking-widest font-light text-stone-100">DOREY LOUISE</span>
+      <span class="tracking-widest font-light text-stone-100">LAMACHE MARIE</span>
+      <span class="tracking-widest font-light text-stone-100">CLAMECY MARIE</span>
+      <span class="tracking-widest font-light text-stone-100">MATTIA EMMA</span>
+    </div>
+    <div class="text-stone-100 text-center flex flex-col">
+      <span class="tracking-widest font-semibold text-stone-100">REMERCIEMENTS </span>
+      <span class="tracking-widest font-light text-stone-100">Théâtre Darius Milhaud</span>
+      <span class="tracking-widest font-light text-stone-100">AVRILLON ALIZÉE(photographe)</span>
+      <span class="tracking-widest font-light text-stone-100">DIDIER PINEAU(compositeur)</span>
     </div>
     <!-- Overview end -->
 
@@ -39,8 +43,6 @@
   <!-- Footer end -->
 </template>
 
-<script>
-export default {}
-</script>
+<script setup></script>
 
 <style></style>

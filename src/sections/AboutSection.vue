@@ -3,11 +3,12 @@
   <section id="about-section" class="px-12 lg:px-32 py-16 border-t border-stone-500 relative">
     <!-- Main text start -->
     <h1 class="uppercase text-5xl mb-4 font-semibold">Qui sommes nous?</h1>
-    <p class="capitalize xl:w-1/2 text-stone-500 mb-8">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint quia quos, nesciunt id
-      esse magnam facere eveniet ea laborum minus illo earum! Dolorum repellat eos, quod tempora
-      omnis magni blanditiis eligendi nesciunt aut sapiente nemo distinctio placeat voluptas facilis
-      deserunt quaerat, voluptatem hic accusamus dicta, eaque asperiores qui quasi?
+    <p class="xl:w-1/2 text-stone-500 mb-8">
+      Une troupe de théâtre née de notre passion commune, rencontrée sur les bancs des Cours
+      Florent. Ensemble, nous avons monté notre propre pièce, de l'écriture à la mise en scène, en
+      passant par la création des décors et la production. Tout a été fait par nous-mêmes, avec le
+      cœur. C’est plus qu’un projet, c’est une aventure humaine où chaque répétition, chaque scène,
+      nous rappelle à quel point nous aimons profondément le théâtre. 🎭
     </p>
     <!-- Main text end -->
 
