@@ -4,7 +4,9 @@
     <div class="w-full md:w-1/2 h-full flex flex-col md:justify-center">
       <div class=""></div>
       <!-- Main text start -->
-      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold">TOI FÉMININ ESSENTIELLE</h1>
+      <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold z-50">
+        TOI FÉMININ ESSENTIELLE
+      </h1>
       <p class="xl:w-1/2 text-stone-500">"Riche en émotion"</p>
       <p class="xl:w-1/2 text-stone-500">"Un retour à l'enfance"</p>
       <p class="xl:w-1/2 text-stone-500">"Tendre, dur et si vraie "</p>
@@ -34,7 +36,7 @@
     </div>
 
     <!-- Photographer image start -->
-    <div class="absolute bottom-20 right-44 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 -z-50">
+    <div class="absolute bottom-20 right-44 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 z-49">
       <img src="@/assets/tfe.jpg" alt="img" class="h-full rounded" />
     </div>
 
@@ -42,7 +44,7 @@
 
     <!-- Circle start -->
     <div
-      class="hidden sm:block bg-neutral-300 h-64 w-64 rounded-full absolute top-38 left-20 mt-16 -z-20"
+      class="hidden lg:block bg-neutral-300 h-64 w-64 rounded-full absolute top-38 left-20 mt-26 -z-20"
     ></div>
     <!-- Circle end -->
 
