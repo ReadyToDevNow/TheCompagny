@@ -8,10 +8,10 @@
       <span class="text-lg">80 allée Darius Milhaud, 75019 Paris / 01 42 01 92 26</span>
     </a>
 
-    <img @click="instagramLink" src="@/assets/tfe.jpg" alt="icon-instagram" />
+    <img @click="instagramLink" src="@/assets/tfe.jpg" alt="icon-instagram" class="shadow-xl/60" />
 
     <span
-      class="bg-stone-500 hover:bg-stone-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300"
+      class="bg-stone-500 hover:bg-stone-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg/60 transition duration-300"
       >Réservez ici : Théâtre Darius Milhaud
     </span>
   </section>

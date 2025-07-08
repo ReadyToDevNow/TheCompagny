@@ -40,10 +40,12 @@
       </div>
     </div>
     <div class="flex text-center justify-center py-6 sm:py-8">
-      <span class="tracking-widest font-light text-stone-100"
+      <a
+        href="https://www.linkedin.com/in/mehdi-lenicque/"
+        class="tracking-widest font-light text-stone-100"
         >Made with <span class="pi pi-heart-fill animate-bounce" style="color: red"></span> by
         Lenicque Mehdi
-      </span>
+      </a>
     </div>
 
     <!-- Overview end -->

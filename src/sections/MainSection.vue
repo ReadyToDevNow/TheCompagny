@@ -16,10 +16,10 @@
 
       <!-- Photographer image start absolute bottom-20 right-44 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 -->
       <div class="z-49 lg:basis-2/3 flex flex-col items-center gap-4">
-        <img src="@/assets/tfe.jpg" alt="img" class="w-full max-w-xl rounded" />
+        <img src="@/assets/tfe.jpg" alt="img" class="w-full max-w-xl rounded shadow-xl/60" />
         <a
           href="https://www.theatredariusmilhaud.fr/"
-          class="w-full max-w-xl text-center cursor-pointer lg:basis-2/3 bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-4xl font-bold px-6 py-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
+          class="w-full max-w-xl text-center cursor-pointer lg:basis-2/3 bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-4xl font-bold px-6 py-4 rounded-xl shadow-xl/30 hover:shadow-xl/50 transition duration-300 transform hover:-translate-y-1 ring-stone-600"
           >Réservez ici : Théâtre Darius Milhaud
         </a>
       </div>
