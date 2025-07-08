@@ -1,8 +1,6 @@
 <template>
   <!-- Footer start -->
-  <div
-    class="bg-stone-700 w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-8 p-8"
-  >
+  <div class="bg-stone-700 flex justify-center md:space-between flex-col lg:flex-row gap-8 p-6">
     <!-- Overview start -->
     <div class="text-stone-100 text-center flex flex-col">
       <a
@@ -21,30 +19,17 @@
       <a href="https://www.theatredariusmilhaud.fr/" target="_blank" rel="noopener noreferrer"
         >Théâtre Darius Milhaud</a
       >
-      <a href="https://www.instagram.com/alizee_avrillon/">AVRILLON ALIZÉE(photographe)</a>
-      <span class="tracking-widest font-light text-stone-100">DIDIER PINEAU(compositeur)</span>
+      <a href="https://www.instagram.com/alizee_avrillon/">AVRILLON ALIZÉE (photographe)</a>
+      <a href="https://www.jesappellealain.fr/">BOISTAULT ALAIN (llustrateur)</a>
+      <span class="tracking-widest font-light text-stone-100">DIDIER PINEAU (compositeur)</span>
+    </div>
+    <div class="flex flex-col text-center">
+      <span class="tracking-widest font-semibold text-stone-100">MERCI POUR L'ACCEUIL</span>
+      <span class="tracking-widest font-light text-stone-100">Isabelle au tablier (Vendée) </span>
+      <span class="tracking-widest font-light text-stone-100">Marie-Claire (Angers) </span>
+      <span class="tracking-widest font-light text-stone-100">Geneviève et ALain (Jarzé) </span>
     </div>
     <!-- Overview end -->
-
-    <!-- Links start -->
-    <div class="text-stone-100 flex justify-center items-center gap-8">
-      <a href="#">
-        <i class="fa-brands fa-instagram socialIcon"></i>
-      </a>
-      <a href="#">
-        <i class="fa-brands fa-linkedin socialIcon"></i>
-      </a>
-      <a href="#">
-        <i class="fa-brands fa-facebook socialIcon"></i>
-      </a>
-      <a href="#">
-        <i class="fa-brands fa-dribbble socialIcon"></i>
-      </a>
-      <a href="#">
-        <i class="fa-brands fa-pinterest socialIcon"></i>
-      </a>
-    </div>
-    <!-- Links end -->
   </div>
   <!-- Footer end -->
 </template>

@@ -1,6 +1,6 @@
 <template>
   <!-- Main section start -->
-  <section class="min-h-screen px-12 lg:px-54 py-54 mb-8">
+  <section class="min-h-screen px-12 lg:px-54 pt-34 mb-8">
     <div class="flex flex-col md:flex-row">
       <div class="flex flex-col mb-4">
         <!-- Main text start -->
@@ -13,16 +13,22 @@
         <span class="xl:w-1/2 text-stone-500">"N'oubliez pas vos petits mouchoirs"</span>
       </div>
       <!-- Main text end -->
+
       <!-- Photographer image start absolute bottom-20 right-44 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 -->
-      <div class="z-49 lg:basis-2/3">
-        <img src="@/assets/tfe.jpg" alt="img" class="h-full rounded mb-4" />
+      <div class="z-49 lg:basis-2/3 flex flex-col items-center gap-4">
+        <img src="@/assets/tfe.jpg" alt="img" class="w-full max-w-xl rounded" />
+        <span
+          class="w-full max-w-xl text-center cursor-pointer lg:basis-2/3 bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-4xl font-bold px-6 py-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
+          >Réservez ici : Théâtre Darius Milhaud
+        </span>
       </div>
     </div>
+
     <!-- Photographer image end -->
-    <!-- Circle start
-        <div
-          class="hidden lg:block bg-neutral-300 h-64 w-64 rounded-full absolute top-38 left-20 mt-26 -z-20"
-        ></div> -->
+    <!-- Circle start-->
+    <div
+      class="hidden lg:block bg-neutral-300 h-64 w-64 rounded-full absolute left-20 mt-26 -z-20"
+    ></div>
     <!-- Circle end -->
   </section>
   <!-- Main section end -->
