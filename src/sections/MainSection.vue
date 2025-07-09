@@ -11,6 +11,7 @@
         <span class="xl:w-1/2 text-stone-500">"Un retour à l'enfance"</span>
         <span class="xl:w-1/2 text-stone-500">"Tendre, dur et si vraie "</span>
         <span class="xl:w-1/2 text-stone-500">"N'oubliez pas vos petits mouchoirs"</span>
+        <img src="@/assets/danse.png" alt="" class="" />
       </div>
       <!-- Main text end -->
 
@@ -19,17 +20,16 @@
         <img src="@/assets/tfe.jpg" alt="img" class="w-full max-w-xl rounded shadow-xl/60" />
         <a
           href="https://www.theatredariusmilhaud.fr/"
-          class="w-full max-w-xl text-center cursor-pointer lg:basis-2/3 bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-4xl font-bold px-6 py-4 rounded-xl shadow-xl/30 hover:shadow-xl/50 transition duration-300 transform hover:-translate-y-1 ring-stone-600"
+          class="w-full max-w-xl text-center text-nowrap cursor-pointer bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-3xl font-bold px-6 py-4 rounded-xl shadow-xl/30 hover:shadow-xl/50 transition duration-300 transform hover:-translate-y-1 ring-stone-600"
           >Réservez ici : Théâtre Darius Milhaud
         </a>
       </div>
     </div>
 
     <!-- Photographer image end -->
-    <!-- Circle start-->
-    <div
-      class="hidden lg:block bg-neutral-300 h-64 w-64 rounded-full absolute left-20 mt-26 -z-20"
-    ></div>
+    <!-- Circle start
+    <div class="hidden lg:block bg-neutral-300 h-64 w-64 rounded-full left-20 mt-26 -z-20"></div>
+    -->
     <!-- Circle end -->
   </section>
   <!-- Main section end -->
