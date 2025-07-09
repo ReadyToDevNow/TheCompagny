@@ -1,6 +1,6 @@
 <template>
   <!-- Footer start -->
-  <div class="bg-stone-700">
+  <div class="bg-gradient-to-br from-emerald-300 via-emerald-800 to-amber-300">
     <!-- Overview start -->
     <div class="flex justify-center md:space-between flex-col lg:flex-row gap-8 p-6">
       <div class="text-stone-100 text-center flex flex-col">

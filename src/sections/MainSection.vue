@@ -20,7 +20,7 @@
         <img src="@/assets/tfe.jpg" alt="img" class="w-full max-w-xl rounded shadow-xl/60" />
         <a
           href="https://www.theatredariusmilhaud.fr/"
-          class="w-full max-w-xl text-center text-nowrap cursor-pointer bg-stone-500 hover:bg-stone-600 text-white text-2xl sm:text-2xl lg:text-3xl font-bold px-6 py-4 rounded-xl shadow-xl/30 hover:shadow-xl/50 transition duration-300 transform hover:-translate-y-1 ring-stone-600"
+          class="w-full max-w-xl text-center text-nowrap cursor-pointer bg-gradient-to-tr from-emerald-300 via-emerald-700 via-15% to-amber-300 text-white text-2xl sm:text-2xl lg:text-3xl font-bold px-6 py-4 rounded-xl shadow-xl/30 hover:shadow-xl/50 transition duration-300 transform hover:-translate-y-1 ring-stone-600"
           >Réservez ici : Théâtre Darius Milhaud
         </a>
       </div>
