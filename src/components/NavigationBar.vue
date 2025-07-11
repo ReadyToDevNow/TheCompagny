@@ -1,6 +1,8 @@
 <template>
   <!-- Navbar start -->
-  <nav class="w-screen fixed bg-opacity-90 bg-white p-4 lg:px-20 flex justify-between z-50">
+  <nav
+    class="w-screen fixed hidden bg-opacity-90 bg-white p-4 lg:px-20 md:flex justify-between z-50"
+  >
     <!-- Logo start -->
     <div class="h-full flex flex-col justify-center">
       <p class="tracking-widest font-semibold">TOI FÉMININ ESSENTIEL</p>
@@ -21,20 +23,12 @@
       aria-expanded="false"
     >
       <!-- Links start -->
-      <a href="#" role="menuitem">
-        <p class="mx-4">Accueil</p>
-      </a>
 
-      <a href="#" role="menuitem">
-        <p class="mx-4">À Propos</p>
-      </a>
-
-      <a href="#" role="menuitem">
-        <p class="mx-4">Explorez</p>
-      </a>
-      <p @click="scrollToSection" class="cursor-pointer text-blue-500">Nos souvenirs</p>
-
-      <button class="btn" role="menuitem">Contactez-nous</button>
+      <button @click="scrollToHome" class="cursor-pointer tracking-widest">Accueil</button>
+      <button @click="scrollToDate" class="cursor-pointer tracking-widest">Nos Dates</button>
+      <button @click="scrollToPortfolio" class="cursor-pointer tracking-widest">
+        Nos souvenirs
+      </button>
 
       <img
         @click="instagramLink"
@@ -55,8 +49,20 @@ function instagramLink() {
   window.open('https://www.instagram.com/toifemininessentielle.nanette/', '_blank')
 }
 
-function scrollToSection() {
+function scrollToPortfolio() {
   const target = document.getElementById('portfolio-section')
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+function scrollToDate() {
+  const target = document.getElementById('date-section')
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+function scrollToHome() {
+  const target = document.getElementById('home-section')
   if (target) {
     target.scrollIntoView({ behavior: 'smooth' })
   }

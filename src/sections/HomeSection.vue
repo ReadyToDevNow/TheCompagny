@@ -1,8 +1,8 @@
 <template>
   <!-- Main section start -->
-  <section class="min-h-screen px-12 lg:px-54 pt-34 mb-8">
+  <section id="home-section" class="min-h-screen px-12 lg:px-54 pt-4 md:pt-34 mb-8">
     <div class="flex flex-col md:flex-row">
-      <div class="flex flex-col mb-4">
+      <div class="flex flex-col mb-4 text-center items-center">
         <!-- Main text start -->
         <h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold z-40">
           TOI FÉMININ ESSENTIELLE
